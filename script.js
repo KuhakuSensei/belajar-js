@@ -1,8 +1,11 @@
-// ambil elemen
+const tombolA = document.getElementById("tombolA");
+const tombolB = document.getElementById("tombolB");
 const teks = document.getElementById("teks");
-const tombol = document.getElementById("tombol");
 
-// ketika tombol diklik
-tombol.addEventListener("click", function() {
-    teks.textContent = "Teksnya sudah berubah!";
+tombolA.addEventListener("click", function () {
+  teks.textContent = "Halo, saya belajar JavaScript!";
+});
+
+tombolB.addEventListener("click", function () {
+  teks.textContent = "Saya semangat latihan!";
 });
