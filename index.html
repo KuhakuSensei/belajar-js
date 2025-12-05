@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <title>Latihan DOM - Tombol A & B</title>
+  <meta charset="UTF-8" />
+  <title>Kalkulator Sederhana</title>
 </head>
 <body>
-  <h1>Latihan Git nomor 1</h1>
-<p>Latihan Git nomor 3</p>
+  <h1>Kalkulator Sederhana</h1>
 
-  <div>
-    <button id="tombolA">Tombol A</button>
-    <button id="tombolB">Tombol B</button>
-  </div>
+  <input id="angka1" type="number" placeholder="Angka pertama">
+  <input id="angka2" type="number" placeholder="Angka kedua">
 
-  <p id="teks">Teks di sini akan berubah sesuai tombol</p>
+  <br><br>
+
+  <button id="tambah">+</button>
+  <button id="kurang">-</button>
+  <button id="kali">*</button>
+  <button id="bagi">/</button>
+  <button id="reset">reset</button>
+
+  <h2>Hasil: <span id="hasil">0</span></h2>
 
   <script src="script.js"></script>
 </body>
