@@ -9,4 +9,4 @@ tombolA.addEventListener("click", function () {
 tombolB.addEventListener("click", function () {
   teks.textContent = "Saya semangat latihan!";
 });
-console.log("Latihan Git nomor 2");
+console.log("Latihan Git nomor 3");
